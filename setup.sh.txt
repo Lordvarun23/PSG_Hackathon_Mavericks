@@ -1,0 +1,11 @@
+mkdir -p ~/.streamlit/
+echo "
+[general]n
+email = "20pd36@psgtech.ac.in"n
+" > ~/.streamlit/credentials.toml
+echo "
+[server]n
+headless = truen
+enableCORS=falsen
+port = $PORTn
+" > ~/.streamlit/config.toml
